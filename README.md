@@ -18,7 +18,7 @@ I wanted to make a quick and simple OpenGL dev environment template with little 
 ## Info
 - Requires CMake 3.19 for Macos M1 Support
 - Comes with GLAD configured with the gl 4.1 API and compatibility profile
-- GLFW is a submodule (use --recursive when cloning)
+- GLFW and glm are submodules (use --recursive when cloning)
 
 ## Usage
 1. Clone the repo **recursively** `git clone --recursive https://github.com/prodskimaya/OpenGLTemplate.git`
