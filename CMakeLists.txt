@@ -12,7 +12,8 @@ set(GLFW_BUILD_EXAMPLES OFF CACHE BOOL "" FORCE)
 
 add_subdirectory(extern/glfw)
 add_subdirectory(extern/glad)
+add_subdirectory(extern/glm)
 
 add_executable(Game src/main.cpp)
 
-target_link_libraries(Game PRIVATE glfw PRIVATE glad)
+target_link_libraries(Game PRIVATE glfw PRIVATE glad PRIVATE glm)
