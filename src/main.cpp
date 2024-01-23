@@ -4,10 +4,6 @@
 
 #include <iostream>
 
-// README: Stopped at orange triangle on learnopengl before EBO
-// README: Switch to Cherno vids!
-
-// TODO: Move these into a bloody header file!
 void FramebufferSizeCallback(GLFWwindow* window, int width, int height);
 void ProcessInput(GLFWwindow* window);
 void CheckShaderCompilationStatus(unsigned int shader);
