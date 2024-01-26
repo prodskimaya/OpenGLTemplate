@@ -24,3 +24,7 @@ I wanted to make a quick and simple OpenGL dev environment template with little 
 1. Clone the repo **recursively** `git clone --recursive https://github.com/prodskimaya/OpenGLTemplate.git`
 2. Cd into the repo and create a build folder, and then cd into that: `cd OpenGLTemplate`, `mkdir build`, & `cd build`
 3. Run CMake in the build folder and compile the application using your build system of choice (in this case, make): `cmake ..` & `make`
+
+## Credit
+- Thanks to [LearnOpenGL](https://learnopengl.com) and [TheCherno](https://github.com/TheCherno) for their OpenGL learning resources.
+- Thanks to [cliutils on gitlab](https://cliutils.gitlab.io/) for their [Introduction to Modern CMake gitbook](https://cliutils.gitlab.io/modern-cmake/).
